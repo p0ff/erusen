@@ -91,7 +91,8 @@ p.logo {
 	height: 95vh;
 }
 .pointbox {
-	line-height: 50px;
+	line-height: 4em;
+	font-size: 1.5em;
 	color: #fff;
 	border-radius: 4px;
 	text-align: center;
@@ -144,7 +145,7 @@ p.logo {
 #open-innovation {
 	position: relative;
 	display: block;
-	height: 100vh;
+	min-height: 100vh;
 	background: #6f9600 none repeat scroll 0 0;
 	padding: 6em 2em;
 	font-size: 1.75vmin;
@@ -179,9 +180,9 @@ p.logo {
 }
 #open-innovation p {
 	color: #fff;
-	font-size: 1.1em;
 }
 .quote {
+	font-size: 1em;
 	text-align: center;
 	margin-top: 6%;
 	margin-bottom: 3%;
@@ -190,7 +191,7 @@ p.logo {
 	font-size: 2.4em;
 }
 .half-tile {
-	display: inline-block;
+	display: block;
 	width: 50%;
 	height: 100%;
 	margin: 0;
@@ -198,6 +199,7 @@ p.logo {
 }
 .half-tile img {
 	width: 100%;
+	height: 100%;
 }
 .half-tile-right {
 	display: inline-block;
@@ -216,7 +218,7 @@ p.logo {
 	display: block;
 	font-size: 1.75vmin;
 	position: relative;
-	height: 100vh;
+	min-height: 100vh;
 
 }
 #consultation:after {
