@@ -187,15 +187,13 @@ p.logo {
 	margin-top: 6%;
 	margin-bottom: 3%;
 }
-.quote em{
+.quote em {
 	font-size: 2.4em;
 }
 .half-tile {
 	display: block;
 	width: 50%;
 	height: 100%;
-	margin: 0;
-	padding: 0;
 }
 .half-tile img {
 	width: 100%;
@@ -218,7 +216,7 @@ p.logo {
 	display: block;
 	font-size: 1.75vmin;
 	position: relative;
-	min-height: 100vh;
+	height: 100vh;
 
 }
 #consultation:after {
@@ -232,21 +230,19 @@ p.logo {
 #consultation p {
 	font-size: 1.6em;
 }
-#consultation article {
-	padding: 4em;
-}
 #consult {
 	position: relative;
+	color: #fff;
+	padding-left: 1.5em;
+	padding-top: 1.5em;
 }
-article h2 {
+#consult h2 {
+	color: #fff;
 	font-size: 4em;
 	font-weight: 900;
 	letter-spacing: -2px;
 	line-height: 0.9;
 	margin: 0 0 0.625em 0
-}
-article h1, article h2, article h3, article h4, article h5, article h6 {
-	color: #fff;
 }
 .media-container {
   overflow: hidden;

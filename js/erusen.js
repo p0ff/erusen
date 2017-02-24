@@ -2,7 +2,7 @@ jQuery(document).ready(function($) {
   // One page navigation
   var lastId,
       topMenu = $(".top-nav"),
-      topMenuHeight = topMenu.outerHeight() + 20,
+      topMenuHeight = topMenu.outerHeight() + 65,
       menuItems = topMenu.find("a"),
       scrollItems = menuItems.map(function() {
           var item = $($(this).attr("href"));
